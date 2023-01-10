@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Кликер</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="img/mouse.png">
+</head>
+<body>
+
+<body>
+  <main>
+    <h2>Clicker game</h2>
+    <h1 class="coins" id ="score">0<img src="img/pancake.png"></h1>
+		<img class="imgg" src="img/pancake1.png" id="clickbtn" onclick="clickBtn()">
+    <br><input type="button" value="Прокачать на 1 уровень|-100" onclick="update()">
+    <br><input type="button" value="Прокачать на 2 уровня|-150" onclick="update1()">
+    <br><input type="button" value="Прокачать на 3 уровня|-250" onclick="update2()">
+    <br><input type="button" value="Прокачать на 10 уровней|-500" onclick="update3()">
+    <br><input type="button" value="Автокликер|-10000" onclick="auto()">
+    <br><input type="button" value="Подробнее" onclick="reboot()">
+  </main>
+</body>
+  <script  src="./script.js"></script>
+</body>
+</html>
